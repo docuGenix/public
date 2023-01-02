@@ -1,5 +1,4 @@
 @startuml ECML
-!theme blueprint
 
 skinparam linetype polyline
 skinparam ArrowFontSize 8
