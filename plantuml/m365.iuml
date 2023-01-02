@@ -1,5 +1,17 @@
 @startuml ECML
 
+!include <C4/C4_Context>
+!include <C4/C4_Container>
+!include <C4/C4_Deployment>
+!include <C4/C4_Dynamic>
+
+!include <office/servers/database_server>
+!include <office/servers/file_server>
+!include <office/servers/application_server>
+!include <office/Concepts/service_application>
+!include <office/Concepts/firewall>
+
+' style overrides for blueprinting
 skinparam linetype polyline
 skinparam ArrowFontSize 8
 skinparam FrameFontSize 9
