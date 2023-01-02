@@ -92,3 +92,6 @@ skinparam frame<<documentlibrary>> {
 
 !define DocumentLibrary(alias, title) rectangle "title" as alias <<documentlibrary>>
 !define DocumentLibraryDescription(text) <i><color:Yellow>text</i>
+
+@enduml
+
